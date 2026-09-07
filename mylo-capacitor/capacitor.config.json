@@ -1,0 +1,42 @@
+{
+  "appId": "com.ubayanda.mylo",
+  "appName": "MYLO",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "iosScheme": "https",
+    "allowNavigation": [
+      "*.youtube.com",
+      "*.ytimg.com",
+      "*.googlevideo.com",
+      "*.googleapis.com",
+      "*.google.com",
+      "*.supabase.co",
+      "*.apple.com",
+      "*.mzstatic.com",
+      "*.theaudiodb.com",
+      "*.radio-browser.info",
+      "*.ipapi.co",
+      "*.lrclib.net"
+    ]
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 800,
+      "backgroundColor": "#050505",
+      "showSpinner": false,
+      "androidScaleType": "CENTER_CROP"
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#050505",
+      "overlaysWebView": false
+    }
+  },
+  "android": {
+    "allowMixedContent": false
+  },
+  "ios": {
+    "contentInset": "automatic"
+  }
+}

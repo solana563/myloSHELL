@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MYLO</string>
+    <string name="title_activity_main">MYLO</string>
+    <string name="package_name">com.ubayanda.mylo</string>
+    <string name="custom_url_scheme">com.ubayanda.mylo</string>
+</resources>
